@@ -60,12 +60,28 @@
 	}
 } */ */
 
+html,
+body{
+  font-family: 'Ranade', sans-serif;
 
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo {
+  cursor: pointer;
 }
 
 hr {
@@ -105,5 +121,26 @@ hr {
 
 
 .footer {
-  color: #E87613;
+  background-color: #E87613;
+  width: 10px;
+  height: 200px;
 }
+
+.git{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background: #2e2e2e;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+/* .buttons {
+
+} */
